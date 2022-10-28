@@ -12,15 +12,14 @@ body {
 }
 
 header {
-    min-height: 590px;
-    min-width: 375px;
-    background-color: #1c1a19;
-    background-repeat: no-repeat;
-    background-size: cover;
+  min-height: 590px;
+  min-width: 375px;
+  background-color: #1c1a19;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-container {
-  /* width: 375px; */
   height: 92px;
   background-color: #3c3a39;
 }
@@ -43,29 +42,29 @@ nav .nav-icon {
 }
 
 header h1 {
-    width: 327px;
-    height: 124px;
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 0.37px;
-    color: #FF6B00;
-    margin: 120px 24px 0px 24px;
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+  margin: 120px 24px 0px 24px;
 }
 
 header h2 {
-    width: 327px;
-    height: 27px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    align-items: center;
-    color: #FFF5E1;
-    margin: 12px 24px 0px 24px;
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  color: #FFF5E1;
+  margin: 12px 24px 0px 24px;
 }
 
 header p {
