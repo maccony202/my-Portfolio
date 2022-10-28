@@ -1,11 +1,35 @@
 body {
-    background-color: whitesmoke;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
+.nav-container {
+    width: 375px;
+    height: 92px;
+    background-color: #3c3a39;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav .logo {
+    width: 77px;
+    height: 24px;
+    margin: 58px  0px 12px 24px;
+}
+
+nav .nav-icon {
+    width: 18px;
+    height: 12px;
+    margin-top: 62px;
+    margin: 62px 18.5px 18.5px 0px;
+}
+
+.headline {
+    background-color: #1c1a19;
 }
