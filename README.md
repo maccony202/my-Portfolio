@@ -14,8 +14,7 @@
 ## Authors
 
 
-👤 **Author1**
-- Collins Nana Antwi Baffour-Gyawu
+👤 Collins Nana Antwi Baffour-Gyawu
 - GitHub: [@githubhandle](https://github.com/maccony202)
 - Twitter: [@twitterhandle](https://twitter.com/Januaryhappine2)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/nana-antwi-collins-21b423244?)
