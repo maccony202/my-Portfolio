@@ -35,7 +35,7 @@ nav h1 {
 nav a {
   width: 77px;
   height: 24px;
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -44,7 +44,7 @@ nav a {
   text-align: center;
   color: #ffff;
   text-decoration: none;
-  margin: 0px  0px 12px 24px;
+  margin: 0  0 12px 24px;
 }
 
 nav .nav-icon {
@@ -64,7 +64,7 @@ nav .nav-icon {
   letter-spacing: 0.37px;
   color: #ff6b00;
   padding: 120px 24px 0 24px;
-  margin: 0px;
+  margin: 0;
 }
 
 .introduction h2 {
@@ -114,6 +114,6 @@ nav .nav-icon {
   height: auto;
   display: flex;
   justify-content: flex-end;
-  padding: 0px 0px 0px 0px;
-  margin: 0px;
+  padding: 0 0 0 0;
+  margin: 0;
 }
