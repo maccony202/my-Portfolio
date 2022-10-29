@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  min-height: 590px;
+  /* min-height: 590px; */
   min-width: 375px;
   background-color: #1c1a19;
   background-repeat: no-repeat;
@@ -94,4 +94,13 @@ header p {
 .social-icons img {
   width: 20px;
   height: auto;
+}
+
+.back img {
+  width: 100px;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
 }
