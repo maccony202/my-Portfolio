@@ -10,10 +10,6 @@
 - HTML & CSS
 - Linters
 
-
-## Authors
-
-
 👤 Collins Nana Antwi Baffour-Gyawu
 - GitHub: [@githubhandle](https://github.com/maccony202)
 - Twitter: [@twitterhandle](https://twitter.com/Januaryhappine2)
