@@ -16,6 +16,7 @@ body {
   background-color: #1c1a19;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(images/illustration-header-mobile.png);
 }
 
 menu {
@@ -30,12 +31,8 @@ menu {
   justify-content: space-between;
 }
 
-.nav-container h1 {
-  margin-top: 50px;
-}
-
 .nav-container a {
-  width: 77px;
+  width: 100px;
   height: 24px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -46,14 +43,14 @@ menu {
   text-align: center;
   color: #ffff;
   text-decoration: none;
-  margin: 80px  0 12px 24px;
+  margin: 5px  0 12px 24px;
   padding-top: 50px;
 }
 
 nav .nav-icon {
   width: 18px;
   height: 12px;
-  margin: 62px 18.5px 18.5px 0;
+  margin: 62px 24px 18.5px 0;
 }
 
 .introduction h1 {
