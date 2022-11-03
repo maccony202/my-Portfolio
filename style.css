@@ -301,7 +301,7 @@ nav .nav-icon {
 .about-me {
   min-width: 375px;
   background: #1c1a19;
-  background-image: url(images/Group\ \(2\).png);
+  background-image: url(images/Group\ \(2\).png) ;
   background-repeat: no-repeat;
   background-size: 150px auto;
   background-position: right bottom;
