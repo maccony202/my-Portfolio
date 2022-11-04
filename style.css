@@ -6,8 +6,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -379,7 +379,6 @@ nav .nav-icon {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  margin-top: 136px;
   align-items: center;
   color: #ffff;
   padding: 0px;
@@ -520,27 +519,27 @@ nav .nav-icon {
 }
 
 .languages .github {
-    width: 162px;
-    margin: 32px 50px 0px 65px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    align-items: center;
-    text-align: center;
-    color: #fff;
+  width: 162px;
+  margin: 32px 50px 0px 65px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
 }
 
 .languages .gitlab {
-    width: 162px;
-    margin: 32px 50px 0px 65px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    align-items: center;
-    text-align: center;
-    color: #fff;
+  width: 162px;
+  margin: 32px 50px 0px 65px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
 }
 
 .languages .terminal {
