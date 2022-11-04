@@ -254,7 +254,7 @@ nav .nav-icon {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: flex-start;
-  margin: 24px 24px 0px 24px;
+  margin: 24px 24px 0 24px;
   min-height: 386px;
   background:
     linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
@@ -272,7 +272,7 @@ nav .nav-icon {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  margin: 84px 0px 0px 16px;
+  margin: 84px 0 0 16px;
 }
 
 .card-works p {
@@ -288,7 +288,7 @@ nav .nav-icon {
 }
 
 .card-works ul {
-  margin: 12px 0px 0px 16px;
+  margin: 12px 0 0 16px;
 }
 
 .card-works li {
@@ -298,8 +298,8 @@ nav .nav-icon {
 .card-works button {
   width: 327px;
   height: 48px;
-  padding: 0px;
-  margin: 22px 0px 0px 0px;
+  padding: 0;
+  margin: 22px 0 0 0;
 }
 
 .about-me {
