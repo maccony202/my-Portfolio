@@ -341,11 +341,11 @@ nav .nav-icon {
   padding: 12px;
   width: 161px;
   height: 48px;
-  margin: 0px 0px 0px 24px;
-  background: #FF6B00;
+  margin: 0 0 0 24px;
+  background: #ff6b00;
   color: #ffff;
   border: hidden;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -382,12 +382,13 @@ nav .nav-icon {
 }
 
 .frame1 .langlogo {
-  margin: 136px 0px 0px 86.77px;
+  margin: 136px 0 0 86.77px;
 }
 
 .frame1 img {
   width: 30px;
   height: 30px;
+
   /* margin-top: 160px;
   margin-left: 88.77px;
   padding: 0; */
@@ -402,7 +403,7 @@ nav .nav-icon {
   align-items: center;
   color: #ffff;
   padding: 0;
-  margin: 133px 86.77px 0px 12px;
+  margin: 133px 86.77px 0 12px;
 }
 
 .frame .languages {
@@ -421,9 +422,9 @@ nav .nav-icon {
 }
 
 .languages li {
-  background:#1C1A19;
+  background: #1c1a19;
   border: hidden;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -432,7 +433,7 @@ nav .nav-icon {
   text-align: center;
   color: #ffff;
   justify-content: center;
-  margin: 0px 85px 0px 80px;
+  margin: 0 85px 0 80px;
   padding-top: 32px;
 }
 
@@ -441,7 +442,7 @@ nav .nav-icon {
 }
 
 .frame1 .framework {
-  margin: 70px 0px 0px 20px;
+  margin: 70px 0 0 20px;
   padding: 0;
 }
 
