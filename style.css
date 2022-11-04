@@ -338,9 +338,21 @@ nav .nav-icon {
 }
 
 .about-me button {
+  padding: 12px;
   width: 161px;
   height: 48px;
-  margin-top: 24px;
+  margin: 0px 0px 0px 24px;
+  background: #FF6B00;
+  color: #ffff;
+  border: hidden;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .about-me hr {
@@ -369,12 +381,16 @@ nav .nav-icon {
   justify-content: center;
 }
 
+.frame1 .langlogo {
+  margin: 136px 0px 0px 86.77px;
+}
+
 .frame1 img {
   width: 30px;
   height: 30px;
-  margin-top: 160px;
+  /* margin-top: 160px;
   margin-left: 88.77px;
-  padding: 0;
+  padding: 0; */
 }
 
 .frame1 h1 {
@@ -386,7 +402,7 @@ nav .nav-icon {
   align-items: center;
   color: #ffff;
   padding: 0;
-  margin: 150px 86.77px 0 0;
+  margin: 133px 86.77px 0px 12px;
 }
 
 .frame .languages {
@@ -397,52 +413,27 @@ nav .nav-icon {
   align-self: center;
 }
 
-.languages .javascript {
-  width: 114px;
-  margin: 0 90px 0 130px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #ffff;
+.languages ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 50px;
 }
 
-.languages .ruby {
-  width: 162px;
-  margin: 32px 70px 0 90px;
-  font-family: 'Inter', sans-serif;
+.languages li {
+  background:#1C1A19;
+  border: hidden;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
+  line-height: 43px;
   align-items: center;
   text-align: center;
   color: #ffff;
-}
-
-.languages .html {
-  width: 114px;
-  margin: 32px 70px 0 90px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #ffff;
-}
-
-.languages .css {
-  width: 114px;
-  margin: 32px 85px 0 100px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #ffff;
+  justify-content: center;
+  margin: 0px 85px 0px 80px;
+  padding-top: 32px;
 }
 
 .frame1 .frameworklogo {
@@ -450,68 +441,8 @@ nav .nav-icon {
 }
 
 .frame1 .framework {
-  margin: 62px 0 0 30px;
+  margin: 70px 0px 0px 20px;
   padding: 0;
-}
-
-.languages .boostrap {
-  width: 114px;
-  margin: 32px 90px 0 110px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #ffff;
-}
-
-.languages .rails {
-  width: 162px;
-  margin: 32px 50px 0 90px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #ffff;
-}
-
-.languages .respec {
-  width: 114px;
-  margin: 32px 90px 0 112px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #ffff;
-}
-
-.languages .capybara {
-  width: 114px;
-  margin: 32px 80px 0 110px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.languages .sele {
-  width: 114px;
-  margin: 32px 80px 0 110px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #ffff;
 }
 
 .frame1 .frame3logo {
@@ -519,41 +450,5 @@ nav .nav-icon {
 }
 
 .frame1 .skill {
-  margin: 39px 60px 0 20px;
-}
-
-.languages .github {
-  width: 162px;
-  margin: 32px 50px 0 65px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.languages .gitlab {
-  width: 162px;
-  margin: 32px 50px 0 65px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.languages .terminal {
-  width: 114px;
-  margin: 32px 90px 131px 112px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
-  color: #fff;
+  margin: 42px 60px 0 20px;
 }
