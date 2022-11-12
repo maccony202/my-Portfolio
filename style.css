@@ -318,12 +318,12 @@ nav .nav-icon {
 }
 
 .about-me {
-    background: #1c1a19;
-    background-image: url(images/backroundimg.png);
-    background-repeat: no-repeat;
-    background-size: 150px auto;
-    background-position: right bottom;
-  } 
+  background: #1c1a19;
+  background-image: url(images/backroundimg.png);
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+  background-position: right bottom;
+}
 
 .about-me h1 {
   width: 327px;
