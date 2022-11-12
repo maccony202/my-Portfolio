@@ -2,6 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@400;500;700&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
 
+.desktop-container {
+  display: none;
+}
+
+.moble-container {
+  display: block;
+}
+
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -303,7 +318,6 @@ nav .nav-icon {
 }
 
 .about-me {
-  min-width: 375px;
   background: #1c1a19;
   background-image: url(images/backroundimg.png);
   background-repeat: no-repeat;
@@ -388,10 +402,6 @@ nav .nav-icon {
 .frame1 img {
   width: 30px;
   height: 30px;
-
-  /* margin-top: 160px;
-  margin-left: 88.77px;
-  padding: 0; */
 }
 
 .frame1 h1 {
@@ -577,4 +587,801 @@ nav .nav-icon {
   margin: 23px 0 8px 50px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+@media (min-width: 760px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .moble-container {
+    display: none;
+  }
+
+  .desktop-container {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .desktop-nav-container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    background-color: #3e3c3c;
+  }
+
+  .desklogo {
+    width: 120px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: 100px;
+  }
+
+  .nav-links a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-links li {
+    padding: 26px 0 26px 32px;
+  }
+
+  .nav-links img {
+    margin-right: 50px;
+  }
+
+  .desktop-headline {
+    display: flex;
+    background-image: url(images/Illustration-header-desk.png);
+    background-color: #1c1a19;
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+    background-position: right;
+  }
+
+  .desk-social-icons ul {
+    list-style: none;
+    margin-top: 279px;
+  }
+
+  .desk-social-icons li {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
+  .desk-intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desk-intro h1 {
+    width: 566px;
+    height: 160px;
+    margin: 192px 0 0 88px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
+  }
+
+  .desk-intro h2 {
+    width: 566px;
+    height: 24px;
+    margin: 24px 0 0 88px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    color: #fff;
+  }
+
+  .desk-intro p {
+    width: 466px;
+    height: 123px;
+    margin: 24px 0 151px 88px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+  }
+
+  .recent-heading {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .recent-heading h5 {
+    width: 215px;
+    height: 52px;
+    margin: 133px 0 0 50px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 52px;
+    align-items: center;
+    color: #091e42;
+  }
+
+  .recent-heading hr {
+    width: 500px;
+    height: 0;
+    margin: 161px 0 0 0;
+    border: 1px solid #212121;
+  }
+
+  .desk-see-project {
+    display: flex;
+  }
+
+  .desk-see-project img {
+    width: 35%;
+    height: 50%;
+    margin: 70px 0 0 50px;
+  }
+
+  .desk-see-projectsub {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
+
+  .desk-see-projectsub h2 {
+    width: 448px;
+    height: 48px;
+    margin: 56px 0 0 24px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    color: #091e42;
+  }
+
+  .desk-see-projectsub p {
+    width: 448px;
+    height: 140px;
+    margin: 24px 0 0 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+  }
+
+  .desk-see-projectsub ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 24px 0 0 24px;
+  }
+
+  .desk-see-projectsub li {
+    margin: 0 12px 0 0;
+    border: 1px solid #8993a4;
+    padding: 10px 10px 12px 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #091e42;
+  }
+
+  .desk-see-projectsub button {
+    width: 124px;
+    height: 48px;
+    margin: 34px 0 0 24px;
+    background: #f55800;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: hidden;
+  }
+
+  .desk-cardworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 24px 0 0 0;
+  }
+
+  .desktopcard-works1 {
+    background: url(images/Snapshoot\ Portfolio.png);
+    width: 369px;
+    height: 435px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+  }
+
+  .desktopcard-works1 button {
+    width: 369px;
+    height: 58px;
+    margin-top: 377px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background: #f55800;
+    border: hidden;
+  }
+
+  .desktopcard-works2 {
+    background:
+      linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),
+      url(images/Snapshoot\ Portfolio-desk4.png);
+    width: 369px;
+    height: 435px;
+    margin-left: 16px;
+    margin-right: 50px;
+  }
+
+  .desktopcard-works2 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 178px 16px 0 16px;
+  }
+
+  .desktopcard-works2 p {
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin: 24px 16px 0 16px;
+  }
+
+  .desktopcard-works2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 24px 0 0 16px;
+  }
+
+  .desktopcard-works2 li {
+    margin-right: 12px;
+    padding: 10px 12px 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .desktopcard-works3 {
+    background:
+      linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),
+      url(images/Snapshoot\ Portfolio-desk1.png);
+    width: 369px;
+    height: 435px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .desktopcard-works3 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 178px 16px 0 16px;
+  }
+
+  .desktopcard-works3 p {
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin: 24px 16px 0 16px;
+  }
+
+  .desktopcard-works3 ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 24px 0 0 16px;
+  }
+
+  .desktopcard-works3 li {
+    margin-right: 12px;
+    padding: 10px 12px 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .desktopcard-works4 {
+    background:
+      linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),
+      url(images/Snapshoot\ Portfolio.png);
+    width: 369px;
+    height: 435px;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 50px;
+  }
+
+  .desktopcard-works4 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 178px 16px 0 16px;
+  }
+
+  .desktopcard-works4 p {
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin: 24px 16px 0 16px;
+  }
+
+  .desktopcard-works4 ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 24px 0 0 16px;
+  }
+
+  .desktopcard-works4 li {
+    margin-right: 12px;
+    padding: 10px 12px 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .desktopcard-works5 {
+    background:
+      linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),
+      url(images/Snapshoot\ Portfolio-desk4.png);
+    width: 369px;
+    height: 435px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .desktopcard-works5 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 178px 16px 0 16px;
+  }
+
+  .desktopcard-works5 p {
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin: 24px 16px 0 16px;
+  }
+
+  .desktopcard-works5 ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 24px 0 0 16px;
+  }
+
+  .desktopcard-works5 li {
+    margin-right: 12px;
+    padding: 10px 12px 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .desktopcard-works6 {
+    background:
+      linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),
+      url(images/Snapshoot\ Portfolio-desk1.png);
+    width: 369px;
+    height: 435px;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 50px;
+  }
+
+  .desktopcard-works6 h1 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 178px 16px 0 16px;
+  }
+
+  .desktopcard-works6 p {
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin: 24px 16px 0 16px;
+  }
+
+  .desktopcard-works6 ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 24px 0 0 16px;
+  }
+
+  .desktopcard-works6 li {
+    margin-right: 12px;
+    padding: 10px 12px 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .desktop-about-me {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-image: url(images/illustration-about\ me@2x.png);
+    background-color: #262626;
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+    background-position: right;
+    margin-top: 130px;
+  }
+
+  .desktop-about-me h1 {
+    margin: 130px 0 0 122px;
+    padding-top: 130px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
+  }
+
+  .desktop-about-me p {
+    width: 450px;
+    height: 148px;
+    margin: 24px 0 0 122px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+  }
+
+  .desktop-about-me button {
+    width: 161px;
+    height: 48px;
+    background-color: #f55800;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: hidden;
+    margin: 24px 0 0 122px;
+    padding: 12px 12px;
+  }
+
+  .desktop-about-me hr {
+    width: 90%;
+    border: 1px solid #fff;
+    margin-top: 139px;
+    margin-bottom: 0;
+    margin-left: 5%;
+  }
+
+  .desktop-frames {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    background: #262626;
+    padding: 0;
+    margin: 0;
+  }
+
+  .desk-frame {
+    padding: 0;
+    margin: 0;
+  }
+
+  .desktoplogo {
+    width: 30px;
+    height: 30px;
+    margin: 146px 0 0 113px;
+  }
+
+  .frame-d {
+    display: flex;
+  }
+
+  .frame-d h1 {
+    margin: 139px 0 0 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    color: #fff;
+  }
+
+  .desk-frame ul {
+    list-style: none;
+  }
+
+  .desk-frame li {
+    margin: 44px 0 0 153px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    align-items: center;
+    color: #fff;
+  }
+
+  .desk-contactform {
+    display: flex;
+  }
+
+  .desk-contactform p {
+    width: 30%;
+    height: 30%;
+    margin: 100px 0 0 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
+  }
+
+  .desk-contactform form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .deskcon {
+    display: flex;
+    margin-left: 24px;
+  }
+
+  .deskcon input {
+    width: 330px;
+    height: 48px;
+    margin-top: 100px;
+    margin-right: 5px;
+    padding: 15px 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    color: #979493;
+    border: hidden;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  #desk-email {
+    width: 430px;
+    height: 48px;
+    padding: 15px 16px;
+    margin-top: 24px;
+    margin-left: 24px;
+    border: hidden;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  .desk-contactform textarea {
+    width: 430px;
+    height: 114px;
+    margin-top: 24px;
+    margin-left: 24px;
+    padding: 15px 16px;
+    border: hidden;
+    border-bottom: 1px solid #dbd8d7;
+    background-color: #fbf8f7;
+  }
+
+  .desk-contactform button {
+    width: 122px;
+    height: 48px;
+    background-color: #f55800;
+    margin-top: 24px;
+    margin-left: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    border: hidden;
+  }
+
+  .desktop-container hr {
+    margin-top: 154px;
+  }
+
+  .deskcontact-social-icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .deskcontact-social-icons li {
+    margin-left: 21px;
+    margin-top: 25px;
+    margin-bottom: 26px;
+  }
+
+  .deskcontact-social-icons img {
+    width: 20px;
+    height: auto;
+  }
+
+  @media (min-width: 1100px) {
+    .desktop-frames {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .desk-cardworks {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .desktopcard-works3 {
+      margin-top: 0;
+    }
+
+    .recent-heading hr {
+      width: 794px;
+    }
+
+    .desk-contactform form {
+      width: 50%;
+    }
+
+    .deskcon input {
+      width: 480px;
+    }
+
+    #desk-email {
+      width: 700px;
+    }
+
+    .desk-contactform textarea {
+      width: 700px;
+    }
+  }
 }
