@@ -648,6 +648,10 @@ nav .nav-icon {
     color: #fff;
   }
 
+  .nav:hover {
+    transform: scale(2);
+  }
+
   .nav-links {
     display: flex;
     list-style: none;
@@ -660,6 +664,10 @@ nav .nav-icon {
 
   .nav-links img {
     margin-right: 50px;
+  }
+
+  .union:hover {
+    transform: scale(2);
   }
 
   .desktop-headline {
