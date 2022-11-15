@@ -32,6 +32,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(images/illustration-header-mobile.png);
+  background-size: 150px auto;
+  background-position: right bottom;
 }
 
 menu {
@@ -40,6 +42,7 @@ menu {
 }
 
 .nav-container {
+  width: 100%;
   height: 92px;
   background-color: #3c3a39;
   display: flex;
@@ -589,7 +592,7 @@ nav .nav-icon {
   border-radius: 10px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
   * {
     box-sizing: border-box;
     padding: 0;
@@ -648,6 +651,10 @@ nav .nav-icon {
     color: #fff;
   }
 
+  .nav:hover {
+    transform: scale(2);
+  }
+
   .nav-links {
     display: flex;
     list-style: none;
@@ -660,6 +667,10 @@ nav .nav-icon {
 
   .nav-links img {
     margin-right: 50px;
+  }
+
+  .union:hover {
+    transform: scale(2);
   }
 
   .desktop-headline {
@@ -1383,5 +1394,28 @@ nav .nav-icon {
     .desk-contactform textarea {
       width: 700px;
     }
+  }
+
+}
+
+@media (max-width: 760px){
+  .card-works button {
+    width: 100%;
+  }
+
+  .contactform {
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 360px){
+  .card-works button {
+    width: 90%;
+  }
+
+  .nav-container {
+    width: 100%;
   }
 }
