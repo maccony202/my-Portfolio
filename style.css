@@ -32,6 +32,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(images/illustration-header-mobile.png);
+  background-size: 150px auto;
+  background-position: right bottom;
 }
 
 menu {
@@ -590,7 +592,7 @@ nav .nav-icon {
   border-radius: 10px;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
   * {
     box-sizing: border-box;
     padding: 0;
