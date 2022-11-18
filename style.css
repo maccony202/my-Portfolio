@@ -1398,7 +1398,7 @@ nav .nav-icon {
 
 }
 
-@media (max-width: 760px){
+@media (max-width: 768px){
   .card-works button {
     width: 100%;
   }
@@ -1406,6 +1406,10 @@ nav .nav-icon {
   .contactform {
     justify-content: center;
     align-items: center;
+  }
+
+  .contact-social-icons {
+    margin-left: 280px;
   }
 
 }
