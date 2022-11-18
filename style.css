@@ -30,7 +30,6 @@ body {
   min-width: 375px;
   background-color: #1c1a19;
   background-repeat: no-repeat;
-  background-size: cover;
   background-image: url(images/illustration-header-mobile.png);
   background-size: 150px auto;
   background-position: right bottom;
@@ -1395,10 +1394,9 @@ nav .nav-icon {
       width: 700px;
     }
   }
-
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .card-works button {
     width: 100%;
   }
@@ -1411,10 +1409,9 @@ nav .nav-icon {
   .contact-social-icons {
     margin-left: 280px;
   }
-
 }
 
-@media (max-width: 360px){
+@media (max-width: 360px) {
   .card-works button {
     width: 90%;
   }
