@@ -30,7 +30,6 @@ body {
   min-width: 375px;
   background-color: #1c1a19;
   background-repeat: no-repeat;
-  background-size: cover;
   background-image: url(images/illustration-header-mobile.png);
   background-size: 150px auto;
   background-position: right bottom;
@@ -70,7 +69,6 @@ menu {
   height: 12px;
   margin: 62px 18.5px 18.5px 0;
 } */
-
 
 .introduction h1 {
   width: 327px;
@@ -594,12 +592,12 @@ menu {
 }
 
 /* humburger menu pop up */
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .humberger {
     cursor: pointer;
     margin: 54px 18.5px 18.5px 0;
   }
-  
+
   .bar {
     display: block;
     width: 25px;
@@ -607,25 +605,25 @@ menu {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .humberger.active {
-    background: rgba (18,18,19,0.7);
+    background: rgba (18, 18, 19, 0.7);
     cursor: pointer;
   }
-  
-  .humberger.active .bar:nth-child(2){
+
+  .humberger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  
-  .humberger.active .bar:nth-child(1){
+
+  .humberger.active .bar:nth-child(1) {
     transform: translateY(4px) rotate(45deg);
     position: fixed;
     z-index: 1;
   }
-  
-  .humberger.active .bar:nth-child(3){
+
+  .humberger.active .bar:nth-child(3) {
     transform: translateY(-4px) rotate(-45deg);
     position: fixed;
     z-index: 1;
@@ -645,7 +643,7 @@ menu {
     padding: 100px 42px;
     transition: 0.5s ease-in-out;
     list-style: none;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     mix-blend-mode: normal;
   }
 
@@ -674,8 +672,8 @@ menu {
     margin-top: 15px;
     margin-right: 64px;
     height: 1px;
-    background: #6F6C6B;
-  } 
+    background: #6f6c6b;
+  }
 
   .contact-social-icons {
     justify-content: center;
@@ -1538,7 +1536,6 @@ menu {
       width: 700px;
     }
   }
-
 }
 
 /* @media (max-width: 760px){
@@ -1553,7 +1550,7 @@ menu {
 
 } */
 
-@media (max-width: 360px){
+@media (max-width: 360px) {
   .card-works button {
     width: 90%;
   }
@@ -1562,5 +1559,3 @@ menu {
     width: 100%;
   }
 }
-
-
