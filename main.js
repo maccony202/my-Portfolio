@@ -29,6 +29,7 @@ const shows3 = document.querySelector('.show3');
 const shows4 = document.querySelector('.show4');
 const shows5 = document.querySelector('.show5');
 const shows6 = document.querySelector('.show6');
+const shows7 = document.querySelector('.show7');
 
 humberger.addEventListener('click', () => {
   humberger.classList.toggle('active');
@@ -76,6 +77,10 @@ shows5.addEventListener('click', () => {
 });
 
 shows6.addEventListener('click', () => {
+  showProject();
+});
+
+shows7.addEventListener('click', () => {
   showProject();
 });
 
