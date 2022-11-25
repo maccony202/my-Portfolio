@@ -591,7 +591,6 @@ menu {
   border-radius: 10px;
 }
 
-
 /* pop up css file */
 
 .popUp {
@@ -812,8 +811,6 @@ menu {
   height: 48px;
   margin-right: 7px;
 }
-
-
 
 /* humburger menu pop up */
 @media (max-width: 767px) {
