@@ -536,6 +536,16 @@ menu {
   border: hidden;
 }
 
+.validation-message {
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+}
+
 .contactform button {
   align-items: center;
   padding: 12px;
@@ -1661,7 +1671,7 @@ menu {
     border-bottom: 1px solid #dbd8d7;
   }
 
-  #desk-email {
+  #email {
     width: 430px;
     height: 48px;
     padding: 15px 16px;
@@ -1680,6 +1690,16 @@ menu {
     border: hidden;
     border-bottom: 1px solid #dbd8d7;
     background-color: #fbf8f7;
+  }
+
+  .validation-message {
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
   }
 
   .desk-contactform button {
